@@ -11,6 +11,8 @@
 
 #include "starlight/util/Path.h"
 
+#include "starlight/dialog/Backdrop.h"
+
 #include "ScreenGameplay.h"
 
 using starlight::Vector2;
@@ -29,6 +31,7 @@ using namespace picrosspro;
 
 void Game::Init() {
     //clearColor = Color(.5, .75, 1);
+    sl::dialog::Backdrop::New()->Open();
     ScreenGameplay::New()->Open();
 }
 
