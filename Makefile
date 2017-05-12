@@ -35,7 +35,7 @@ INCLUDES	:=	include
 ROMFS		:=	romfs
 
 APP_TITLE		:= Picross Pro 3DS
-#APP_DESCRIPTION	:= Picross Pro 3DS
+APP_DESCRIPTION	:= Picross Pro 3DS
 APP_AUTHOR		:= zetaPRIME
 
 3DSIP			:= 10.0.0.5

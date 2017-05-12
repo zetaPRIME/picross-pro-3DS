@@ -5,6 +5,6 @@
 int main()
 {
     // jump right to Application instance
-    Game().Run();
+    picrosspro::Game().Run();
     return 0;
 }

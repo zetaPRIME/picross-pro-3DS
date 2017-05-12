@@ -11,6 +11,8 @@
 
 #include "starlight/util/Path.h"
 
+#include "ScreenGameplay.h"
+
 using starlight::Vector2;
 using starlight::VRect;
 using starlight::Color;
@@ -23,8 +25,11 @@ using starlight::util::Path;
 
 using starlight::Application;
 
+using namespace picrosspro;
+
 void Game::Init() {
-    clearColor = Color(.5, .75, 1);
+    //clearColor = Color(.5, .75, 1);
+    ScreenGameplay::New()->Open();
 }
 
 void Game::End() {
@@ -32,5 +37,5 @@ void Game::End() {
 }
 
 void Game::Update() {
-    if (InputManager::Pressed(Keys::A)) clearColor = Color(.5, 1, .5);
+    //if (InputManager::Pressed(Keys::A)) clearColor = Color(.5, 1, .5);
 }
