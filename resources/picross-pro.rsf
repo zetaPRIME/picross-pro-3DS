@@ -1,7 +1,7 @@
 BasicInfo:
   Title                   : "picross-pro"
   CompanyCode             : "00"
-  ProductCode             : "CTR-HB-PicrossPro"
+  ProductCode             : "HB-PicrossPro"
   ContentType             : Application # Application / SystemUpdate / Manual / Child / Trial
   Logo                    : Homebrew # Nintendo / Licensed / Distributed / iQue / iQueForSystem
 

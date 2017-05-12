@@ -32,5 +32,5 @@ void Game::End() {
 }
 
 void Game::Update() {
-    //if (InputManager::Held(Keys::Y) || InputManager::Pressed(Keys::Start)) Application::Quit();
+    if (InputManager::Pressed(Keys::A)) clearColor = Color(.5, 1, .5);
 }
