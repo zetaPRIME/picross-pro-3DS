@@ -6,6 +6,18 @@
 
 namespace picrosspro {
     class Playfield : public sl::ui::UIElement {
+    private:
+        int tsx = 0;
+        int tsy = 0;
+        int tlx = 0;
+        int tly = 0;
+        int tset = 0;
+        
+        // last set
+        int lsx = -1;
+        int lsy = -1;
+        
+        void SetSpace(int x, int y, int state);
     public:
         std::vector<std::vector<int>> field;
         
@@ -20,8 +32,8 @@ namespace picrosspro {
         //void OnTouchOff() override;
         
         //void OnDragStart() override;
-        //void OnDragRelease() override;
-        //void OnDragHold() override;
+        void OnDragRelease() override;
+        void OnDragHold() override;
         
     };
 }
