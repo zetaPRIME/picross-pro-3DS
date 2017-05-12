@@ -1,1 +1,3 @@
 Level loading from png (rgb for final color, a for whether space is filled in)
+Two grid sizes; 16x16px for <=10x10 grids, 12x12px for anything beyond
+Highlighted lines between every 5x5 section; round up to the next highest multiple of 5x5 and block out unused rows with mid-gray, just a bit darker than grid
